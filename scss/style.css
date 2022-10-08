@@ -1,0 +1,511 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../font/Rubik-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../font/OpenSans-VariableFont_wdth,wght.ttf");
+}
+.section1 {
+  width: 568px;
+  margin: 50px;
+  box-shadow: 0px 6px 20px rgba(206, 206, 206, 0.25);
+}
+.section1 .section1__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 33px;
+}
+.section1 .section1__header .section1__header-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #474747;
+}
+.section1 form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.section1 form h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #363636;
+}
+.section1 form .input-text {
+  height: 50px;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px;
+  margin: 10px;
+}
+.section1 form .section1__form-center-checkbox {
+  display: flex;
+  align-items: center;
+}
+.section1 form p,
+.section1 form .section1__text-font {
+  font-family: "Rubik";
+  font-style: normal;
+}
+.section1 form .section1__text-font {
+  color: #474747;
+}
+.section1 form input::-moz-placeholder {
+  padding: 10px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #363636;
+}
+.section1 form input:-ms-input-placeholder {
+  padding: 10px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #363636;
+}
+.section1 form input::placeholder {
+  padding: 10px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #363636;
+}
+.section1 form .section1__form-checkbox {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+.section1 form .section1__form-check-text {
+  margin-left: 20px;
+  width: 90%;
+}
+.section1 form .section1__form-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #a9a9a9;
+}
+.section1 form .section1__form-button-reg {
+  background-color: #b13957;
+  text-align: center;
+  padding: 16px 0px;
+  color: white;
+  border-radius: 30px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+.section1 form .section1__form-link {
+  color: #008c8c;
+}
+.section1 form .section1__form-button {
+  border: 1px solid #afafaf;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.section1 form .section1__form-icon {
+  margin: 10px;
+}
+.section1 form .section1__form-reset {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section2 {
+  width: 470px;
+}
+.section2 .section2__logo {
+  display: flex;
+  justify-content: center;
+}
+.section2 .section2__background {
+  background: rgba(221, 183, 113, 0.22);
+  border-radius: 5px;
+  padding: 10px 58px;
+  margin: 20px;
+}
+.section2 .section2__form-input-text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  opacity: 0.6;
+  color: #0f0f0f;
+}
+.section2 .section2__form-input {
+  width: 100%;
+  height: 30px;
+  background: #ffffff;
+  box-shadow: 0px 6px 20px rgba(206, 206, 206, 0.25);
+  border-radius: 20px;
+  opacity: 0.6;
+  border-color: rgba(0, 0, 0, 0);
+}
+.section2 .section2__form-button-reg-div {
+  display: flex;
+  justify-content: end;
+}
+.section2 .section2__form-button-reg {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background-color: #08a045;
+  border-radius: 40px;
+  padding: 15px 30px;
+}
+.section2 .section2__center {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+.section2 .section2__random-text {
+  margin-left: 20px;
+  color: rgba(15, 15, 15, 0.71);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section3 {
+  background: #fffbf1;
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
+  border-radius: 3px;
+  padding: 50px;
+}
+.section3 .close {
+  display: flex;
+  justify-content: end;
+}
+.section3 form {
+  display: flex;
+  flex-direction: column;
+}
+.section3 form .title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #6d3496;
+  margin: 10px 0px;
+}
+.section3 form .text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #6d3496;
+}
+.section3 form .row-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section3 form .row-inputs input {
+  width: 48%;
+}
+.section3 form .checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0px;
+}
+.section3 form .checkbox input {
+  border: 1px solid #260a3a;
+  margin-right: 10px;
+}
+.section3 form .checkbox p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #260a3a;
+}
+.section3 form input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #6d3496;
+  border-radius: 3px;
+  height: 30px;
+  margin: 10px 0px;
+  padding: 5px;
+}
+.section3 form .big-input {
+  height: 80px;
+}
+.section3 form input::-moz-placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height, or 147% */
+  /* Violet */
+  color: #6d3496;
+}
+.section3 form input:-ms-input-placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height, or 147% */
+  /* Violet */
+  color: #6d3496;
+}
+.section3 form input::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height, or 147% */
+  /* Violet */
+  color: #6d3496;
+}
+.section3 form button {
+  background: #6d3496;
+  border-radius: 3px;
+  width: 100%;
+  border-color: rgba(0, 0, 0, 0);
+}
+.section3 form button p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 10px 0px;
+}
+
+.section3__container1 {
+  width: 440px;
+}
+
+.section3__container2 {
+  width: 600px;
+}
+.section3__container2 form {
+  align-items: center;
+}
+.section3__container2 form button {
+  width: auto;
+}
+.section3__container2 form button p {
+  padding: 10px;
+}
+.section3__container2 form .text {
+  margin-bottom: 20px;
+}
+
+.section3__container3 {
+  width: 800px;
+}
+.section3__container3 form .title {
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-transform: uppercase;
+  /* Violet */
+  color: #6d3496;
+}
+
+.section3__back {
+  background: #fffbf1;
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+}
+.section3__back .title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+  text-transform: uppercase;
+  /* Violet */
+  color: #6d3496;
+}
+.section3__back footer {
+  height: 500px;
+  width: 100%;
+  background: #6d3496;
+}
+
+.secta h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+  margin-top: 80px;
+}
+.secta p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  /* or 139% */
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.secta .secta__container {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 40%;
+  padding: 40px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.secta .secta__container p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+.secta .secta__container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.secta .secta__container form input {
+  height: 30px;
+  padding-left: 10px;
+}
+.secta .secta__container form .row-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.secta .secta__container form .row-inputs .half {
+  width: 45%;
+}
+.secta .secta__container form input::-moz-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.secta .secta__container form input:-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.secta .secta__container form input::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.secta .secta__container form .full {
+  margin-bottom: 24px;
+}
+.secta .secta__container form button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  border-color: rgba(0, 0, 0, 0);
+  background: #18a0fb;
+  border-radius: 6px;
+  width: 30%;
+  height: 40px;
+}/*# sourceMappingURL=style.css.map */
